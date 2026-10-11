@@ -1,7 +1,12 @@
+
+---
+
 title: "L'inganno del capitalismo"
 autore: anonimo
 numero: 1
+
 ---
+
 Alcuni di noi l’altra sera, dopo aver assistito
 al bellissimo spettacolo che rappresentava la
 tragedia greca di Elettra, si sono chiesti se
