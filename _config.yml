@@ -1,0 +1,15 @@
+title: ALEXANDRA MAGAZINE
+url: "https://alexandramagazine.github.io"
+lang: it
+
+collections:
+  articoli:
+    output: true
+    permalink: /articoli/:name.html
+
+defaults:
+  - scope:
+      path: ""
+      type: "articoli"
+    values:
+      layout: articolo
