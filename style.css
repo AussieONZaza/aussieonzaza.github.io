@@ -112,4 +112,14 @@ article h1 {
   header p {
     font-size: 0.85rem;
   }
+
+  .sottotitoli {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .sub-sinistra,
+  .sub-destra {
+    text-align: center;
+  }
 }
