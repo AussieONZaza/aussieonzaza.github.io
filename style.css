@@ -9,18 +9,31 @@ body {
 header {
   position: sticky;
   top: 0;
-  background: #ffe9f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: #fbfaf8;
   border-bottom: 1px solid #e4e2dd;
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1.5rem;
+}
+
+header img {
+  height: 70px;
+  width: auto;
+}
+
+.testo-header {
+  text-align: center;
 }
 
 header h1 {
   margin: 0;
+  color: #ff00ff;
   font-family: Georgia, serif;
   font-size: 1.6rem;
   letter-spacing: 0.04em;
 }
-
 header p {
   margin: 0.2rem 0 0;
   color: #6b6b73;
