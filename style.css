@@ -44,3 +44,8 @@ main {
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
+
+@media (max-width: 600px) {
+  header img { height: 40px; }
+  header h1 { font-size: 1.1rem; }
+}
