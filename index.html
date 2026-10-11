@@ -1,81 +1,18 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ALEXANDRA MAGAZINE</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-  <h1>ALEXANDRA MAGAZINE</h1>
-  <p>giornale digitale<br>fondato con l'obiettivo di esprimere le proprie idee<br>e sottoporle alla discussione critica di menti illuminate</p>
-</header>
+---
+layout: default
+---
+{% assign numeri = site.data.numeri | sort: "numero" | reverse %}
 
-<main>
-    <section>
-    <h2>Numero 7 - 31 agosto 2026</h2>
-    <ul>
-      <li><a href="/articoli/numero7-articolo1.html">Risposta al secondo quesito dell’edizione del 16 Agosto</a></li>
-      <li><a href="/articoli/numero7-articolo2.html">Oggi un contenuto video</a></li>
-      <li><a href="/articoli/numero7-articolo3.html"> Non tutti leggono le scritte in piccolo dei contratti</a></li>
-      <li><a href="/articoli/numero7-articolo4.html">Perché gli Uomini Sembrano più Stupidi delle Donne? Teoria dell'Umiltà.</a></li>
-    </ul>
-  </section>
+{% for n in numeri %}
+  {% assign lista = site.articoli | where: "numero", n.numero | sort: "path" %}
+  {% if lista.size > 0 %}
   <section>
-    <h2>Numero 6 - 16 agosto 2026</h2>
+    <h2>Numero {{ n.numero }} - {{ n.data }}</h2>
     <ul>
-      <li><a href="/articoli/numero6-articolo1.html">Ma perchè Alexandra Magazine esce in bianco?</a></li>
+      {% for a in lista %}
+      <li><a href="{{ a.url }}">{{ a.title }}</a></li>
+      {% endfor %}
     </ul>
   </section>
-      <section>
-    <h2>Numero 5 - 29 luglio 2026</h2>
-    <ul>
-      <li><a href="/articoli/numero5-articolo1.html">Ma quanto si(ete/amo) belli?</a></li>
-      <li><a href="/articoli/numero5-articolo2.html">Fumetto di Carlo Pesca</a></li>
-      <li><a href="/articoli/numero5-articolo3.html">Uroboro dresscode</a></li>
-      <li><a href="/articoli/numero5-articolo4.html">L'amore libero</a></li>
-      <li><a href="/articoli/numero5-articolo5.html">La doccia asseieme </a></li>
-    </ul>
-  </section>
-    <section>
-    <h2>Numero 4 - 15 luglio 2026</h2>
-    <ul>
-      <li><a href="/articoli/numero4-articolo1.html">L'amore in sessione</a></li>
-      <li><a href="/articoli/numero4-articolo2.html">Be a man</a></li>
-      <li><a href="/articoli/numero4-articolo3.html">Corazza poliamorosa</a></li>
-      <li><a href="/articoli/numero4-articolo4.html">La teoria della figa nel credo politico</a></li>
-      <li><a href="/articoli/numero4-articolo5.html">Storie di Poliamore – Il Compleanno di Benjamin</a></li>
-      <li><a href="/articoli/numero4-articolo6.html">Riflessioni causate dal suono di un clacson alla ciclista un attimo prima di mandarlo a..</a></li>
-    </ul>
-  </section>
-  <section>
-    <h2>Numero 3 - 1 luglio 2026</h2>
-    <ul>
-    </ul>
-  </section>
-  
-  <section>
-    <h2>Numero 2 - 15 giugno 2026</h2>
-    <ul>
-      <li><a href="/articoli/numero2-articolo1.html">ESTROGINE: la Puglia, il mare e Donna Haraway</a></li>
-      <li><a href="/articoli/numero2-articolo2.html">L’automobilista impotente che suona il clacson poco prima di eiaculare</a></li>
-      <li><a href="/articoli/numero2-articolo3.html">La mia divisa è fatta di peli</a></li>
-      <li><a href="/articoli/numero2-articolo4.html">Caro Femminismo ti scrivo</a></li>
-      <li><a href="/articoli/numero2-articolo5.html">Sentirsi</a></li>
-      <li><a href="/articoli/numero2-articolo6.html">Tassa etica o tassa morale</a></li>
-      <li><a href="/articoli/numero2-articolo7.html">Il gender pay gap spiegato ad una donna</a></li>
-    </ul>
-  </section>
-    <section>
-    <h2>Numero 1 - giugno 2026</h2>
-    <ul>
-      <li><a href="/articoli/numero1-titolo.html">L'inganno del capitalismo</a></li>
-    </ul>
-  </section>
-
-</main>
-
-</body>
-</html>
-
+  {% endif %}
+{% endfor %}
