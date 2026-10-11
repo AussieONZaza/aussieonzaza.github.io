@@ -60,24 +60,13 @@ ad alta voce estratti di Chthulucene e
 Manifesto Cyborg e ci addormenteremo
 con le lezioni di filosofia di Antonio
 Gargano.
-Rambaldo sfiorò la marmitta della sua
-utilitaria per tastarne la lubrificazione.
-Accortosi della secchezza di questa, iniziò a
-riversare copiosa saliva intorno al caldo tubo
-che sporgeva dal didietro della sua Claudia.
-Targa DX542VB, Rambaldo l’aveva
-conosciuta al concessionario di Lissone,
-quello gestito dal suo amico Enrico, che gli
-aveva garantito ottime prestazioni a un
-prezzo contenuto. Era il lontano 2010,
-Claudia ora va per i 16, e Rambaldo non
-riesce a fare a meno di scorgere i segni del
-tempo che le solcano la carrozzeria.
+
 Per questo vogliamo che tu venga con
 noi, per condividere questi momenti di
 sana follia e creatività collettiva che solo
 l’unico antidoto ai corsi di yoga e di argilla
 per trentenni in mood da matrimonio.
+
 Non perdere questo momento
 importante nella tua vita, se sei una di noi,
 una rivoluzionaria del sistema e del
