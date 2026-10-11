@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #fbfaf8;
+  color: #1f1f23;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fbfaf8;
+  border-bottom: 1px solid #e4e2dd;
+  padding: 1rem 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+}
+
+header p {
+  margin: 0.2rem 0 0;
+  color: #6b6b73;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
