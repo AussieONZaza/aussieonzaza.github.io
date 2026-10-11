@@ -2,7 +2,7 @@
 title: "Be a man"
 autore: anonimo
 numero: 4
-published: false
+
 ---
 
 22 Giugno 2026, Canon EOS R8, 85mm,
