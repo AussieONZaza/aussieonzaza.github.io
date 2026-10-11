@@ -35,6 +35,25 @@ header p {
   line-height: 1.5;
 }
 
+.sottotitoli {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 0.6rem;
+}
+
+.sottotitoli p {
+  margin: 0;
+}
+
+.sub-sinistra {
+  text-align: left;
+}
+
+.sub-destra {
+  text-align: right;
+}
 /* ---------- Contenuto ---------- */
 
 main {
