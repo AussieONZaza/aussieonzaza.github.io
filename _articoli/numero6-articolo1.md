@@ -2,7 +2,7 @@
 title: "Ma perchè Alexandra Magazine esce in bianco?"
 autore: anonimo
 numero: 6
-published: false
+
 ---
 
 Al di là di voler essere trasgressivi e fare un’opera di arte contemporanea astratta etc., perchè il magazine non aspetta i suoi scrittori? Lui esce a prescindere ogni 15 giorni, che sia scritto o in bianco. Però, se c’è su almeno un articolo magari ne vale anche la pena, ma in bianco dà l’idea di essere troppo snob per aspettare i suoi scrittori, quelli che evidentemente hanno avuto qualcosa di più entusiasmante da fare, o non sono riusciti a tirare le somme di un ragionamento che richiedeva più tempo, o che al contrario volevano lo spazio per mettere in pratica gli insegnamenti ricevuti da questo magazine, o che avevano semplicemente bisogno di riprendere le forze, affinché il prossimo numero: The September’s Issue, uscisse più bello che mai. Ed è una domanda vera, a cui, se vi va, vorrei ricevere risposta nel prossimo numero, e quindi lancio qui un tema, una sfida: è giusto o no che Alexandra Magazine esca in bianco? Che cos’è questo spazio? Perché e cosa scriverci? E se farlo uscire a prescindere è meglio che farlo uscire in un certo modo?
