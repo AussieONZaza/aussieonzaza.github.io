@@ -37,8 +37,10 @@ header h1 {
   letter-spacing: 0.04em;
 }
 header p {
-  margin: 0.2rem 0 0;
+  margin: 0.5rem 0 0;
   color: #6b6b73;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 main {
@@ -81,6 +83,7 @@ section li a:hover {
 }
 
 @media (max-width: 600px) {
-  header img { height: 60px; }
-  header h1 { font-size: 1.1rem; }
+  header p {
+    font-size: 0.85rem; }
+}
 }
